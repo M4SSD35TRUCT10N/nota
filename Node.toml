@@ -1,0 +1,14 @@
+[[apps]]
+name = "nota"
+width = 1280
+height = 360
+
+    [[apps.fonts]]
+    font_family = "Material Icons"
+    src = "fonts/MaterialIcons-Regular.ttf"
+    [[apps.fonts]]
+    font_family = "Roboto Regular"
+    src = "fonts/Roboto-Regular.ttf"
+    [[apps.fonts]]
+    font_family = "Roboto Medium"
+    src = "fonts/Roboto-Medium.ttf"

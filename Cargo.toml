@@ -1,10 +1,28 @@
 [package]
 name = "nota"
-version = "0.1.0"
+version = "0.2.1"
 authors = ["Enrico Lefass <enrico.lefass@mailbox.org>"]
 edition = "2018"
+description = "Note taking app based on OrbTk."
+# repository = "https://github.com/PluralTools/PluralPlanner"
+# readme = "README.md"
+license = "ISC"
+keywords = [
+    "notes"
+]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[features]
+debug = ["orbtk/debug"]
+light = []
+
 [dependencies]
 orbtk = { git = "https://github.com/redox-os/orbtk.git", branch = "develop" }
+serde = "1.0.115"
+serde_derive = "1.0.115"
+
+[package.metadata.bundle]
+name = "nota"
+identifier = "tenebris.nota"
+short_description = "An OrbTk based note taking application."
