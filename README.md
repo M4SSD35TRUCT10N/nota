@@ -1,7 +1,7 @@
 # nota
 [![GPL 3 licensed](https://img.shields.io/badge/license-ISC-green.svg)](./LICENSE)
 
-Note taking app based on OrbTk https://github.com/redox-os/orbtk.
+Note taking app based on OrbTk https://github.com/redox-os/orbtk. Currently heavily based on PluralPlanner. This will change definitely over time. But it's a first starting point.
 
 ## Platforms
 
